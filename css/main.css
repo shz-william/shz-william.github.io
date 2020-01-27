@@ -3169,7 +3169,7 @@
 			height:60px;
 		}
 
-			#header .logo strong {
+			#header .logo p {
 				-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
