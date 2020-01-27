@@ -3157,6 +3157,7 @@
 	}
 	.daohang_box{
 		overflow:hidden;
+		width: 90%;
 	}
 	.daohang{
 		display:inherit;
