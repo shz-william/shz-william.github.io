@@ -3155,6 +3155,12 @@
 		z-index: 10000;
 		color: #323232;
 	}
+	.daohang{
+		display:inherit;
+		color:#323232;
+		font-size:0.5em;
+		font-weight:normal;
+	}
 	#header p{
 		color:#323232;
 		font-size:0.5em;
