@@ -3155,6 +3155,9 @@
 		z-index: 10000;
 		color: #323232;
 	}
+	#header p{
+		color:#323232;
+	}
 
 		#header .logo {
 			border: 0;
@@ -3169,7 +3172,7 @@
 			height:60px;
 		}
 
-			#header .logo p {
+			#header .logo strong {
 				-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
