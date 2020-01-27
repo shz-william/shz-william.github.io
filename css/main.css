@@ -3163,6 +3163,10 @@
 			line-height: inherit;
 			padding: 0 1.5em;
 		}
+		#header img{
+			width:100%;
+			height:100%
+		}
 
 			#header .logo strong {
 				-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
