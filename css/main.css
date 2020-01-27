@@ -3560,9 +3560,9 @@
 			background-color: #87c5a4;
 		}
 
-		body.is-loading #banner:after {
+		/*body.is-loading #banner:after {
 			opacity: 1.0;
-		}
+		}*/
 
 		body.is-loading #banner > .inner {
 			-moz-filter: blur(0.125em);
