@@ -3154,6 +3154,8 @@
 		width: 100%;
 		z-index: 10000;
 		color: #323232;
+	}
+	.daohang_box{
 		overflow:hidden;
 	}
 	.daohang{
@@ -3161,7 +3163,7 @@
 		color:#323232;
 		font-size:0.5em;
 		font-weight:normal;
-		float: left;
+		float:left;
 	}
 	#header p{
 		color:#323232;
