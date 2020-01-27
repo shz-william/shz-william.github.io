@@ -3182,7 +3182,7 @@
 			height:60px;
 		}
 
-			#header .logo strong {
+			/*#header .logo strong {
 				-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -3201,7 +3201,7 @@
 
 			#header .logo:active strong {
 				background-color: #53e3fb;
-			}
+			}*/
 
 		#header nav {
 			display: -moz-flex;
