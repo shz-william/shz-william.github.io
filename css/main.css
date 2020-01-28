@@ -3151,13 +3151,13 @@
 		position: fixed;
 		text-transform: uppercase;
 		top: 0;
-		width: 80%;
+		width: 90%;
 		z-index: 1;
 		color: #323232;
-		margin: 0 auto;
+		margin: 0 5%;
 	}
 	.daohang_box{
-		overflow:hidden;
+		float: right;
 		width: 100%;
 	}
 	.daohang{
@@ -3173,10 +3173,11 @@
 		font-weight:normal;
 		font-family:"微软雅黑";
 		float:right;
-		width:80%;
+		width:60%;
 	}
 
 		#header .logo {
+			float: left;
 			border: 0;
 			display: inline-block;
 			font-size: 0.5em;
