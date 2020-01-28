@@ -3144,7 +3144,6 @@
 		cursor: default;
 		font-weight: 600;
 		height: 3.25em;
-		line-height:3.25em;
 		left: 0;
 		letter-spacing: 0.25em;
 		line-height: 3.25em;
@@ -3159,7 +3158,6 @@
 	.daohang_box{
 		overflow:hidden;
 		width: 80%;
-		height:52px;
 	}
 	.daohang{
 		display:inherit;
@@ -3448,7 +3446,7 @@
 		max-height: 32em;
 		min-height: 22em;
 		position: relative;
-		top: -3.25em;
+		/*top: -3.25em;*/
 	}
 
 		#banner:after {
