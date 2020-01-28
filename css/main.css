@@ -3163,9 +3163,13 @@
 	.daohang{
 		display:inherit;
 		color:#323232;
-		font-size:0.5em;
+		font-size:0.8em;
 		font-weight:normal;
 		float:right;
+	}
+	.daohang a{
+		margin-left:2%;
+		margin-right:2%;
 	}
 	/*#header p{
 		color:#323232;
