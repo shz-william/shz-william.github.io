@@ -3151,7 +3151,7 @@
 		position: fixed;
 		text-transform: uppercase;
 		top: 0;
-		width: 90%;
+		width: 80%;
 		z-index: 1;
 		color: #323232;
 		margin: 0 auto;
@@ -3173,7 +3173,7 @@
 		font-weight:normal;
 		font-family:"微软雅黑";
 		float:right;
-		width:90%;
+		width:80%;
 	}
 
 		#header .logo {
