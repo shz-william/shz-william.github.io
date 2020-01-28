@@ -3158,7 +3158,7 @@
 	}
 	.daohang_box{
 		overflow:hidden;
-		width: 80%;
+		width: 100%;
 	}
 	.daohang{
 		display:inherit;
@@ -3173,7 +3173,7 @@
 		font-weight:normal;
 		font-family:"微软雅黑";
 		float:right;
-		width:60%;
+		width:90%;
 	}
 
 		#header .logo {
