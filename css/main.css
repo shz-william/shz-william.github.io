@@ -3142,7 +3142,7 @@
 		background-color: #ffffff;
 		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.15);
 		cursor: default;
-		font-weight: 600;
+		/*font-weight: 600;*/
 		height: 3.25em;
 		left: 0;
 		letter-spacing: 0.25em;
@@ -3165,7 +3165,7 @@
 		display:inherit;
 		color:#323232;
 		font-size:0.8em;
-		font-weight:normal;
+		font-weight:200;
 		float:right;
 		width:30%;
 	}
