@@ -1,23 +1,6 @@
 body{
 	margin:0;
 }
-/*.top_box{
-	height:60px;
-	width:100%;
-	background-color:#ffffff;
-}
-.top{
-	width:80%;
-	margin:0 10%;
-	height:60px;
-	line-height:60px;
-	overflow:hidden;
-}
-.logo{
-	float:left;
-	width:60px;
-	height:60px;
-}*/
 .head-box{
 	overflow:hidden;
 }
@@ -49,11 +32,12 @@ body{
 	font-size:1em;
 	color:#999999;
 	margin-top:-5px;
+	font-family:"Times New Roman",Times,serif,Arial,Helvetica,sans-serif,"Source Sans Pro","Courier New",FontAwesome;
 }
 .content button{
 	font-size:1em;
 	color:#ffffff;
-	background-color:#ff0000;
+	background-color:#88389f;
 	padding:0 5%;
 	margin-top: 20px;
 	height:2.6em;
@@ -69,9 +53,77 @@ body{
 }
 .text{
 	float:left;
-	margin-left:15%;
-	width:60%;
+	margin-left:10%;
+	width:55%;
+}
+.text p{
+	color:#999;
+	line-height: 2em;
+	font-family:"Times New Roman",Times,serif,Arial,Helvetica,sans-serif,"Source Sans Pro","Courier New",FontAwesome;
+}
+.box-one img{
+	margin-top:2vh;
+
 }
 .pic{
 	float:right;
+	display: block;
+	width:30%;
+	margin-top:5%;
+	margin-right:5%
+}
+.cando{
+	width:70%;
+	margin-left:15%;
+	text-align:center;
+}
+.cando p{
+	color:#999;
+	line-height: 2em;
+	padding-left:20%;
+	padding-right:20%;
+	margin-bottom:5vh;
+	font-family:"Times New Roman",Times,serif,Arial,Helvetica,sans-serif,"Source Sans Pro","Courier New",FontAwesome;
+}
+.work{
+	padding-top:10vh;
+}
+.case{
+	overflow: hidden;
+	position:absolute;
+	width:100%;
+	padding-top:10vh;
+}
+.case *{
+	float: left;
+	cursor: pointer;
+  transition: all 0.6s;
+}
+.case img:hover{
+	transform: scale(1.2);
+}
+.case1{
+	position:relative;
+	display: inline-block;
+/*	top:0%;
+	left:28%;
+	width:30%;*/
+	z-index:2;
+	margin-bottom:20vh;
+}
+.case2{
+	position: relative;
+	display: inline-block;
+/*	top:18vh;
+	left:8%;
+	width:10%;*/
+	z-index:3;
+}
+.case3{
+	position: relative;
+	display: inline-block;
+/*	top:16vh;
+	left:1%;
+	width:20%;*/
+	z-index:4;
 }
