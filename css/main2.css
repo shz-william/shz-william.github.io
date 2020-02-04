@@ -45,6 +45,7 @@ body{
 	font-family:Arial,Helvetica,sans-serif,"Source Sans Pro","Courier New",FontAwesome;
 	border-radius:1.3em;
 	border:none;
+	cursor:pointer;
 }
 .power{
 	overflow:hidden;

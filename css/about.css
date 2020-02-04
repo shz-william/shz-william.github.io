@@ -1,8 +1,10 @@
-.about-top{
-	overflow:hidden;
+.grxx{
+	margin-top:10vh;
+	margin-left:-10%;
 }
-.a_banner{
-	float:left;
-	width:15%;
-	margin-left:15%;
+.grxx p{
+	font-size:1em;
+	color:#999999;
+	margin-top:-5px;
+	font-family:"Times New Roman",Times,serif,Arial,Helvetica,sans-serif,"Source Sans Pro","Courier New",FontAwesome;
 }
