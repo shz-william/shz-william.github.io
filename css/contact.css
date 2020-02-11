@@ -1,0 +1,62 @@
+.sm{
+	float:left;
+	width:30%;
+	margin-left:10%;
+	margin-top:5vh;
+}
+.sm strong{
+	font-size:4em;
+	font-weight:bolder;
+}
+.sm p{
+	line-height:2em;
+	color:#999;
+	margin-bottom:5vh;
+}
+.sm h2{
+	line-height:2em;
+}
+.bixin{
+	width:40%;
+	margin-left:30%;
+	position:relative;
+	top:-34vh;
+	left:-10%;
+}
+.foot{
+	margin-top:-35vh;
+}
+.in{
+	border-bottom:1px #ccc solid;
+	line-height:4em;
+	font-size:1em;
+	font-family:MicroSoft YaHei,Helvetica,sans-serif,"Source Sans Pro","Courier New",FontAwesome;
+	color:#999;
+}
+form{
+	margin-left:10%;
+	padding-top:5vh;
+}
+input{
+	line-height:4em;
+	border:1px solid #fff;
+	width:80%;
+	outline:none;
+}
+#msg input{
+	padding-bottom:15vh;
+}
+form button{
+	font-size:1em;
+	color:#ffffff;
+	background-color:#88389f;
+	padding:0 10%;
+	margin-top: 20px;
+	height:2.2em;
+	line-height: 2.2em;
+	font-family:MicroSoft YaHei,Arial,Helvetica,sans-serif,"Source Sans Pro","Courier New",FontAwesome;
+	border-radius:1.1em;
+	border:none;
+	cursor:pointer;
+	float:right;
+}

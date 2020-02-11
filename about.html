@@ -10,34 +10,221 @@
 	<title>申海振 | 交互设计师</title>
 	<link rel="stylesheet" href="css/main2.css"/>
 	<link rel="stylesheet" href="css/about.css"/>
+	<link rel="stylesheet" href="css/style2.css"/>
+	<style type="text/css">
+	.float {
+position:fixed;
+top:0px;
+margin-top:0px;
+width:100%;
+border-radius:0px;
+}
+</style>
+<script src="js/jquery.min.js"></script>
+<script>
+window.onscroll=function(){
+if ($(document).scrollTop() >20)//这个20是距离顶部高度
+{
+$(".nav").addClass('float');
+$(".yincang").addClass("tianj");
+}else{
+$(".nav").removeClass('float');
+$(".yincang").removeClass("tianj");
+}
+}
+</script>
 </head>
 <body>
 	<div class="head-box">
+		<div class="yincang"><img src="img/s1.png" width="100%"></div>
 		<div class="banner"><img src="img/about2.jpg" width="100%"></div>
 		<div class="head-right">
-			<div class="nav">
-				<a href="index.html">首页</a>
-				<a href="">作品</a>
-				<a href="about.html">关于</a>
-				<a href="">联系</a>
-			</div>
+			<nav class="nav"> 
+				<a href="index.html" class="nav-item" active-color="#88389f">首页</a> 
+				<a href="case.html" class="nav-item" active-color="#88389f">作品</a>
+				<a href="about.html" class="nav-item is-active" active-color="#88389f">关于</a>
+				<a href="contact.html" class="nav-item" active-color="#88389f">联系</a> 
+				<span class="nav-indicator"></span>
+			</nav>
+			<script  src="js/script.js"></script>
 			<div class="grxx">
-				<h1>Essential Information</h1>
+				<h1>About</h1>
+				<p>您好！我是申海振，毕业于中原工学院，并获得学士学位.</p>
+				<ul>
+					<li>拥有5年的互联网行业交互设计经验;</li>
+					<li>负责过兴业证券优理宝、优企在线、安利的挑战星球等多个平台（APP、PC、小程序）产品的交互设计;</li>
+					<li>具有用户研究和需求分析的能力，能根据产品需求快速锁定用户需求和痛点，优化用户体验以及可用性测试.</li>
+				</ul>
+				<!-- <h1>Essential Information</h1>
 				<p>姓名：申海振（William）</p>
 				<p>年龄：27岁</p>
 				<p>工作年限：5年</p>
+				<p>求职：交互设计师</p>
+				<p>掌握技能：AXure、sketch、Xmind、墨刀、IN、PS、AI...</p>
+				<p>地址：上海·闵行</p>
 				<p>手机号：18300702855</p>
-				<p>邮箱：18300702855@163.com</p>
+				<p>邮箱：18300702855@163.com</p> -->
 			</div>
 			<div class="grxx">
-				<h1>Self Evaluation</h1>
-				<p>姓名：申海振（William）</p>
-				<p>年龄：27岁</p>
-				<p>工作年限：5年</p>
-				<p>手机号：18300702855</p>
-				<p>邮箱：18300702855@163.com</p>
+				<h1>My Skills</h1>
+				<img src="img/moon2.png" width="100%">
 			</div>
 		</div>
+		<div class="work">
+			<div class="bt">
+				<h1>Works Experience</h1>
+				<p>不是每一次努力都有收获，但是，每一次收获都必须努力。人若有志，就不会半坡停止。我的信念：相信我能够完成任何我要完成的事情，并且坚信它值得我为此而付出和努力。</p>
+			</div>
+				<!-- <iframe marginwidth=0 marginheight=0 width="100%" height=400 src="works.html" frameborder="no" ></iframe> -->
+			<!-- <div class="work_right">
+				<div class="box1">
+					<h4>交互设计师</h4>
+					<h5>上海联蔚信息科技有限公司</h5>
+					<p>2018年3月-至今</p>
+					<a href="">详情 ></a>
+				</div>
+				<div class="box1">
+					<h4>交互设计师</h4>
+					<h5>上海吉贝克信息技术有限公司</h5>
+					<p>2016年8月-2018年3月</p>
+					<a href="">详情 ></a>
+				</div>
+				<div class="box1">
+					<h4>视觉/交互设计师</h4>
+					<h5>上海联蔚信息科技有限公司</h5>
+					<p>2015年8月-2016年7月</p>
+					<a href="">详情 ></a>
+				</div>
+			</div> -->
+			<!-- <div class="jl_box">
+				<div class="jl">
+					<div class="jl_left">
+					<h3>交互设计师</h3>
+					<h4>上海联蔚信息科技有限公司</h4>
+					<h5>
+						进行产品的需求讨论以及用户调研，协助产品经理完成功能需求的梳理；根据PRD文档进行交互原型的输出以及交互说明的撰写；并对产品后期进行用户体验的优化和可用性测试。
+					</h5>
+					<strong>2018年05月-至今</strong></div>
+					
+				</div>
+				<ul>
+							<li>
+								i挑战星球CP后台UI/UX的设计（2018年5月-至今）
+								<p>负责整个后台系统的设计工作，优化用户体验，使用户留存率提升了300%；并缩短了项目组开发所需的时间，保证每个月都上新一个版本，目前已迭代了12个版本。当然在工作中也会遇到很多问题：由于前期对后台系统的不了解和视觉上的短板，导致产出物不理想等；所以在前期我对大量的后台系统（例如：鲸打卡等）进行了研究，并通过业余时间进行视觉的填充，最终使项目顺利进行。</p>
+							</li>
+							<li>
+								社群助手小程序（2019年10月-至今）
+								<p>全权负责整个项目的需求分析、策划、用户调研、竞品分析、交互原型方案的输出，并产出可演示的demo。目前正在开发中，暂未上线。由于接触的都是全新的领域，只能通过大量的观察学习、参考，来弥补自己的不足，使自己得到了很大程度的提升。</p>
+							</li>
+					</ul>
+			</div>
+			<div class="jl_box">
+				<div class="jl">
+					<div class="jl_left">
+					<h3>交互设计师/产品经理</h3>
+					<h4>上海吉贝克信息技术有限公司</h4>
+					<h5>
+						进行用户调研以及产品需求整理，归纳PRD文档，根据需求文档进行交互原型设计，沟通确认产品的交互以及业务逻辑关系，UI视觉界面设计，输出高保真页面以及图标等相关元素；公司网站设计优化、web前端代码的编写。
+					</h5>
+					<strong>2016年08月-2018年05月</strong></div>
+					
+				</div>
+				<ul>
+							<li>
+								兴业证券优理宝APP设计（2017.09—2018.05）
+								<p>负责优理宝整个产品的设计工作，优化用户体验，使产品的使用量从30万增加到了100+万，提高了300%；反馈也有了很好的效果，出现问题的几率也降低了40%左右；同样，在设计过程中遇到过交互体验与视觉体验上的冲突，在这种情况下，经过和同事共同沟通，让同事作为用户进行体验，争取他们的反馈，进行在交互和视觉上修改来达到平衡。</p>
+							</li>
+							<li>
+								优企在线APP（2016年08月-2017年09月）
+								<p>负责整个产品的生命周期，从产品定位、需求分析、交互原型设计以及后期可用性测试到产品上线运营，实现了产品从0到1的过程。俗话说万事开头难，刚开始的时候确实是无从下手，经过与客户的反复沟通，最终才确定产品定位、商业模式等，才使产品顺利进行。虽然很艰辛，但我却从中学会了产品的整个生命周期的运作模式等，对以后做产品起到了重大作用。</p>
+							</li>
+					</ul>
+			</div>
+			<div class="jl_box">
+				<div class="jl">
+					<div class="jl_left">
+					<h3>视觉/交互设计师</h3>
+					<h4>北京星原共创资产管理有限公司</h4>
+					<h5>
+						参与产品规划构思、产品概念传达和创意过程、交互原型设计以及RPD文档的撰写；分析业务需求，并加以分解归纳出产品人机交互界面体验设计需求；集合可用性测试结果，完成界面交互行为和功能的改良，提高产品的易用性。
+					</h5>
+					<strong>2015年10月-2016年07月</strong></div>
+					
+				</div>
+				<ul>
+							<li>
+								i挑战星球CP后台UI/UX的设计（2018年5月-至今）
+								<p>负责整个后台系统的设计工作，优化用户体验，使用户留存率提升了300%；并缩短了项目组开发所需的时间，保证每个月都上新一个版本，目前已迭代了12个版本。当然在工作中也会遇到很多问题：由于前期对后台系统的不了解和视觉上的短板，导致产出物不理想等；所以在前期我对大量的后台系统（例如：鲸打卡等）进行了研究，并通过业余时间进行视觉的填充，最终使项目顺利进行。</p>
+							</li>
+							<li>
+								社群助手小程序（2019年10月-至今）
+								<p>全权负责整个项目的需求分析、策划、用户调研、竞品分析、交互原型方案的输出，并产出可演示的demo。目前正在开发中，暂未上线。由于接触的都是全新的领域，只能通过大量的观察学习、参考，来弥补自己的不足，使自己得到了很大程度的提升。</p>
+							</li>
+					</ul>
+			</div> -->
+			<!-- <div class="jy_box">
+				<div class="jy">
+					<div class="lf_pic"><img src="img/lianwei.png" width="100%"></div>
+					<div class="wenzi">
+						<h4>交互设计师</h4>
+						<h5>上海联蔚信息科技有限公司</h5>
+						<h6>进行产品的需求讨论以及用户调研，协助产品经理完成功能需求的梳理；根据PRD文档进行交互原型的输出以及交互说明的撰写；并对产品后期进行用户体验的优化和可用性测试，对产品的用户体验负责。</h6>
+						<strong>2018年05月-至今</strong>
+					</div>
+				</div>
+				<div class="jy">
+					<div class="lf_pic"><img src="img/jibeike.png" width="100%"></div>
+					<div class="wenzi">
+						<h4>交互设计师/产品经理</h4>
+						<h5>上海吉贝克信息技术有限公司</h5>
+						<h6>进行用户调研以及产品需求整理，归纳PRD文档，根据需求文档进行交互原型设计，沟通确认产品的交互以及业务逻辑关系，UI视觉界面设计，输出高保真页面以及图标等相关元素；公司网站设计优化、web前端代码的编写。</h6>
+						<strong>2016年08月-2018年05月</strong>
+					</div>
+				</div>
+				<div class="jy">
+					<div class="lf_pic"><img src="img/xingyuan.png" width="100%"></div>
+					<div class="wenzi">
+						<h4>视觉/交互设计师</h4>
+						<h5>北京星原共创资产管理有限公司</h5>
+						<h6>参与产品规划构思、产品概念传达和创意过程、交互原型设计以及RPD文档的撰写；分析业务需求，并加以分解归纳出产品人机交互界面体验设计需求；集合可用性测试结果，完成界面交互行为和功能的改良，提高产品的易用性。</h6>
+						<strong>2015年10月-2016年07月</strong>
+					</div>
+				</div>
+			</div>
+			<button type="button" onClick="location.href='about.html'">项目详情</button> -->
+		</div>
+		<iframe marginwidth=0 marginheight=0 width="100%" height=800 src="test.html" frameborder="no" ></iframe>
+		<div class="zw">
+			<p>未来，期待与你一起同行~</p>
+		</div>
+	</div>
+	<div class="foot">
+		<div class="foot_box">
+			<div class="lianxi">
+				<img src="img/dianhua1.png" width="30%;">
+				<div class="wz">
+					<h5>联系号码/phone</h5>
+					<p>18300702855</p>
+				</div>
+			</div>
+			<div class="lianxi">
+				<img src="img/dianziyouxiang.png" width="30%;">
+				<div class="wz">
+					<h5>电子邮箱/e-mail</h5>
+					<p>18300702855@163.com</p>
+				</div>
+			</div>
+			<div class="lianxi">
+				<img src="img/qq.png" width="30%;">
+				<div class="wz">
+					<h5>联系号码/phone</h5>
+					<p>18300702855</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="foot_b">
+			<span>Copyright © All Rights 备案号：201900000-1</span>
 	</div>
 </body>
 </html>

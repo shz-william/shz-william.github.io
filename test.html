@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			#tab{
+				width: 80%;
+				margin: 30px auto;
+			}
+			/*标签浮动\清除原点*/
+			#tab ul li{
+				float: left;
+				width: 30%;
+				line-height:2em;
+				font-size:1em;
+				list-style: none;
+				text-align: center;
+				cursor:pointer;
+				padding-top:2.5vh;
+				/*height:102px;*/
+				padding-bottom:2.5vh;
+			}
+			#tab ul{
+				margin-left:5%;
+			}
+			/*设置内容部分,加绝对定位避免出现三个内容框*/
+			.main{
+				width: 79%;
+				margin-left: 0.5%;
+				margin-top:15vh;
+				display: none;
+				position:absolute;
+				font-size:1.5em;
+				line-height:1.5em;
+			}
+			.add{
+				background-image:url(img/sjbg.png);background-repeat:no-repeat;background-position:54px 0;
+			}
+		</style>
+		<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js"></script>
+		<script type="text/javascript">
+			$("li").click(function(){
+  $(this).addClass("add");
+});
+		</script>
+	</head>
+	<body>
+		<div id="tab">
+		<!--标签-->
+		<ul>
+			<li>2018.05<br/>-- 至今</a>
+			<li>2016.08<br/>-- 2018.05</a>
+			<li>2015.10<br/>-- 2016.07</a>
+		</ul>
+		<!--内容-->
+		<div>
+			<div class="main" style="background:#fff;display: block;overflow: hidden;margin-top:15vh;">
+			<div style="float:left;width:35%;margin-left:5%;position:relative;">
+				<strong style="font-size:0.6em;margin-top:3vh;">部分项目：</strong>
+				<p style="font-size:0.6em;margin-top:1vh;"><strong style="font-size:0.9em;">i挑战星球CP后台UI/UX的设计（2018.05-至今）</strong><br/>
+				负责整个后台系统的设计工作，优化用户体验，使用户留存率提升了300%；并缩短了项目组开发所需的时间，保证每个月都上新一个版本，目前已迭代了12个版本。当然在工作中也会遇到很多问题：由于前期对后台系统的不了解和视觉上的短板，导致产出物不理想等；所以在前期我对大量的后台系统（例如：鲸打卡等）进行了研究，并通过业余时间进行视觉的填充，最终使项目顺利进行。<br/>
+			</div>
+			<div style="float:left;width:2%;font-size:1em;margin-left:10%;margin-top:20vh;color:#88389f"><H3>高级交互设计师</H3></div>
+			<div style="float:right;width:35%;overflow:hidden;"><img src="img/lw.png" width="30%" style="margin-top:12vh;">
+				<div style="font-size:0.8em;float:right;margin-right:20%;margin-top:30vh;"><h4>上海联蔚<br/>信息科技有限公司</h4></div>
+				<p style="font-size:0.6em;float: left;margin-top:10vh;margin-right:5%;">进行产品的需求讨论以及用户调研，协助产品经理完成功能需求的梳理；根据PRD文档进行交互原型的输出以及交互说明的撰写；并对产品后期进行用户体验的优化和可用性测试；改良产品，提升产品用户体验度。</p>
+			</div>
+			</div>
+			<div class="main" style="background:#fff;display: block;overflow: hidden;margin-top:15vh;">
+			<div style="float:left;width:35%;margin-left:5%;">
+				<strong style="font-size:0.6em;margin-top:3vh;">部分项目：</strong>
+				<p style="font-size:0.6em;margin-top:1vh;"><strong style="font-size:0.9em;">兴业证券优理宝APP设计（2017.09—2018.05）</strong><br/>
+				负责优理宝整个产品的设计工作，优化用户体验，使产品的使用量从30万增加到了100+万，提高了300%；反馈也有了很好的效果，出现问题的几率也降低了40%左右；同样，在设计过程中遇到过交互体验与视觉体验上的冲突，在这种情况下，经过和同事共同沟通，让同事作为用户进行体验，争取他们的反馈，进行在交互和视觉上修改来达到平衡。<br/>
+				
+			</div>
+			<div style="float:left;width:2%;font-size:1em;margin-left:10%;margin-top:20vh;color:#88389f"><H3>交互设计师& P M</H3></div>
+			<div style="float:right;width:35%;overflow: hidden;"><img src="img/jibeike.jpg" width="35%" style="margin-top:10vh;">
+				<div style="font-size:0.8em;float:right;margin-right:20%;margin-top:30vh;"><h4>上海吉贝克<br/>信息技术有限公司</h4></div>
+				<p style="font-size:0.6em;float: left;margin-top:10vh;margin-right:5%;">进行用户调研以及产品需求整理，归纳PRD文档，根据需求文档进行交互原型设计，沟通确认产品的交互以及业务逻辑关系，UI视觉界面设计，输出高保真页面以及图标等相关元素；公司网站设计优化、web前端代码的编写。</p>
+			</div>
+			</div>
+			<div class="main" style="background:#fff;display: block;overflow: hidden;margin-top:15vh;">
+			<div style="float:left;width:35%;margin-left:5%;">
+				<strong style="font-size:0.6em;margin-top:3vh;">部分项目：</strong>
+				<p style="font-size:0.6em;margin-top:1vh;"><strong style="font-size:0.9em;">星原乐居APP（2015.10-2016.07）</strong><br/>
+				该产品是一款为物业公司、业主量身定制的，帮助业主解决日常生活中所遇到的问题，为业主的日常生活提供便利，为物业提供全面的小区信息与有效管理途径的一款物业服务性产品。
+				在该产品开发过程中，我主要负责完成整个需求分析和设计流程，通过需求分析，罗列产品功能和定位，该产品为物业公司提供一个良好的管理平台，同时为住户提供了线下娱乐休闲购物的场所。<br/>
+			</div>
+			<div style="float:left;width:2%;font-size:1em;margin-left:10%;margin-top:20vh;color:#88389f"><H3>视觉&交互设计师</H3></div>
+			<div style="float:right;width:35%;overflow: hidden;"><img src="img/xy.png" width="35%" style="margin-top:10vh;">
+				<div style="font-size:0.8em;float:right;margin-right:20%;margin-top:30vh;"><h4>北京星原共创<br/>资产管理有限公司</h4></div>
+				<p style="font-size:0.6em;float: left;margin-top:10vh;margin-right:5%;">参与产品规划构思、产品概念传达和创意过程、交互原型设计以及RPD文档的撰写；分析业务需求，并加以分解归纳出产品人机交互界面体验设计需求；集合可用性测试结果，完成界面交互行为和功能的改良，提高产品的易用性。</p>
+			</div>
+			</div>
+			<div class="main" style="background:#fff;display: block;overflow: hidden;margin-top:15vh;">
+				<div style="float:left;width:35%;margin-left:5%;position:relative;">
+				<strong style="font-size:0.6em;margin-top:3vh;">部分项目：</strong>
+				<p style="font-size:0.6em;margin-top:1vh;"><strong style="font-size:0.9em;">i挑战星球CP后台UI/UX的设计（2018.05-至今）</strong><br/>
+				负责整个后台系统的设计工作，优化用户体验，使用户留存率提升了300%；并缩短了项目组开发所需的时间，保证每个月都上新一个版本，目前已迭代了12个版本。当然在工作中也会遇到很多问题：由于前期对后台系统的不了解和视觉上的短板，导致产出物不理想等；所以在前期我对大量的后台系统（例如：鲸打卡等）进行了研究，并通过业余时间进行视觉的填充，最终使项目顺利进行。<br/>
+				</div>
+				<div style="float:left;width:2%;font-size:1em;margin-left:10%;margin-top:20vh;color:#88389f"><H3>高级交互设计师</H3></div>
+				<div style="float:right;width:35%;overflow:hidden;"><img src="img/lw.png" width="30%" style="margin-top:12vh;">
+				<div style="font-size:0.8em;float:right;margin-right:20%;margin-top:30vh;"><h4>上海联蔚<br/>信息科技有限公司</h4></div>
+				<p style="font-size:0.6em;float: left;margin-top:10vh;margin-right:5%;">进行产品的需求讨论以及用户调研，协助产品经理完成功能需求的梳理；根据PRD文档进行交互原型的输出以及交互说明的撰写；并对产品后期进行用户体验的优化和可用性测试；改良产品，提升产品用户体验度。</p>
+				</div>
+			</div>
+		</div>
+		</div>
+		<script src="js/jquery.min.js"></script>
+		<script>
+			var tab=document.getElementById("tab");
+			var list=tab.getElementsByTagName("li");
+			var cn=tab.getElementsByClassName("main");
+//			加序号
+			
+            for(var i=0;i<list.length;i++){
+            	list[i].xuhao=i;
+//          	鼠标点击事件
+            	list[i].onclick=function(){
+//          		获得当前移入的li序号
+                    var c=this.xuhao;
+                    for(var j=0;j<4;j++){
+                    	cn[j].style.display="none";
+                    }
+//                  对应序号的内容显示
+                    cn[c].style.display="block"
+            	}
+            };
+		</script>
+		<script type="text/javascript">
+			$("li").first().addClass("add");
+			$("li").click(function(){
+  $(this).addClass("add");
+  $(this).siblings().removeClass("add");
+});
+		</script>
+	</body>
+</html>
