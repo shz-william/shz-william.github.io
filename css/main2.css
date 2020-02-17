@@ -81,11 +81,12 @@ body{
 	overflow:hidden;
 	width:100%;
 	margin-top:5%;
+	text-align: center;
 }
 .text{
 	float:left;
-	margin-left:10%;
-	width:55%;
+	margin-left:15%;
+	width:70%;
 }
 .text p{
 	color:#999;
@@ -107,6 +108,8 @@ body{
 	width:70%;
 	margin-left:15%;
 	text-align:center;
+	margin-top:10vh;
+	margin-bottom:15vh;
 }
 .cando p{
 	color:#999;
@@ -117,9 +120,36 @@ body{
 	font-family:MicroSoft YaHei,"Times New Roman",Times,serif,Arial,Helvetica,sans-serif,"Source Sans Pro","Courier New",FontAwesome;
 }
 .work{
-	padding-top:10vh;
+	width:100%;
+	text-align: center;
+	background-color:#f7f7f7;
+	padding-top:5vh;
+	margin-bottom:5vh;
 }
-.case{
+.work p{
+	width:60%;
+	margin-left:20%;
+	margin-bottom:8vh;
+}
+.cjbox{
+	width:80%;
+	margin-left:10%;
+	text-align: center;
+}
+.cjbox p{
+	color:#999;
+}
+.cj{
+	width:6%;
+	text-align: center;
+	display: inline-block;
+	margin-left:10%;
+	margin-right:8%;
+}
+.cj h3{
+	font-size:2.5em;
+}
+/*.case{
 	overflow: hidden;
 	position:absolute;
 	width:100%;
@@ -132,4 +162,4 @@ body{
 }
 .case img:hover{
 	transform: scale(1.2);
-}
+}*/
