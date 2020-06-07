@@ -39,16 +39,48 @@ body{
 		}
 		.more_1{
 			position: absolute;
-			top:90%;
-			left:30%;
+			top:80%;
+			left:35%;
 		}
 		.more_2{
 			position: absolute;
-			top:320%;
+			top:260%;
 			left:60%;
 		}
 		.more_3{
 			position: absolute;
-			top:515%;
+			top:415%;
 			left:45%;
+		}
+		.w1{
+			position: absolute;
+			top:302%;
+			left:20%;
+		}
+		.w2{
+			position: absolute;
+			top:302%;
+			left:60%;
+		}
+		.w3{
+			position: absolute;
+			top:361%;
+			left:20%;
+		}
+		.w4{
+			position: absolute;
+			top:361%;
+			left:60%;
+		}
+		.mudle_2{
+			background-color:#fbfbfb;
+		}
+		.mudle_4{
+			background-color:#fbfbfb;
+		}
+		.mudle_6{
+			background-color:#fbfbfb;
+		}
+		.mudle_7{
+			background-color:#323232;
 		}
