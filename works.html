@@ -10,6 +10,25 @@
 	<link rel="shortcut icon" href="img/favicon.ico" />
 	<title>申海振 | 交互设计师</title>
 	<link rel="stylesheet" href="css/index.css"/>
+	<script type="text/javascript">
+			window.onload=function(){
+				var mytab =document.getElementById("main");
+				var myul=mytab.getElementsByTagName("ul")[0];
+				var myli=myul.getElementsByTagName("li");
+				var mydiv=mytab.getElementsByClassName("div");
+				for(i=0,len=myli.length;i<len;i++){
+					myli[i].index=i;
+					myli[i].onclick=function(){
+						for(var n=0;n<len;n++){
+							myli[n].className="";
+							mydiv[n].className="zuopin div";
+						}
+						this.className="selected";
+						mydiv[this.index].className="div";
+					}
+				}
+			}
+	</script>
 </head>
 <body>
 	<div class="mudle_1">
@@ -31,17 +50,15 @@
 			</div>
 		</div>
 	</div>
-	</div>
-	<div>
-		<div class="daohang">
-			<a href="">i挑战星球小程序</a>
-			<a href="">兴业证券优理宝APP</a>
-			<a href="">安利少年站小程序</a>
-			<a href="">优企在线APP</a>
-			<a href="">安利社区管理系统</a>
-		</div>
-		<ul>
-			<li>
+	<div id="main">
+		<ul class="daohang">
+			<li class="selected">i挑战星球小程序</li>
+			<li>兴业证券优理宝APP</li>
+			<li>安利少年站小程序</li>
+			<li>优企在线APP</li>
+			<li>安利社区管理系统</li>
+		</ul>
+		<div class="div" id="1">
 				<img src="img/w1_bg.png" width="80%" style="margin-left:20%">
 				<img src="img/w1_pd.png" width="80%" style="margin-left:10%">
 				<img src="img/w1_dt.png" width="80%" style="margin-left:10%">
@@ -57,9 +74,77 @@
 				<img src="img/w1_edl3.png" width="80%" style="margin-left:10%">
 				<img src="img/w1_edl4.png" width="80%" style="margin-left:10%">
 				<img src="img/w1_edl5.png" width="80%" style="margin-left:10%">
-				<img src="img/w1_som.png" width="80%" style="margin-left:10%">
-			</li>
-		</ul>
+				<img src="img/w1_som.png" width="70%" style="margin-left:15%">
+		</div>
+		<div class="zuopin div" id="2">
+			<img src="img/xy_top.png" width="100%">
+			<img src="img/xy_pb.png" width="80%" style="margin-left:10%">
+			<img src="img/xy_dr.png" width="80%" style="margin-left:10%">
+			<img src="img/xy_cpa1.png" width="80%" style="margin-left:10%">
+			<img src="img/xy_cpa2.png" width="80%" style="margin-left:10%">
+			<img src="img/xy_cpa3.png" width="80%" style="margin-left:10%">
+			<img src="img/xy_ur1.png" width="80%" style="margin-left:10%">
+			<img src="img/xy_ur2.png" width="80%" style="margin-left:10%">
+			<img src="img/xy_do.png" width="80%" style="margin-left:10%">
+			<img src="img/xy_dh.png" width="80%" style="margin-left:10%">
+			<img src="img/xy_ia.png" width="80%" style="margin-left:10%">
+			<div style="background-color:#f2f2f2"><img src="img/xy_pd.png" width="80%" style="margin-left:10%"></div>
+			<div style="background-color:#f2f2f2"><img src="img/xy_pd2.png" width="80%" style="margin-left:10%"></div>
+			<div style="background-color:#f2f2f2"><img src="img/xy_pd3.png" width="80%" style="margin-left:10%"></div>
+			<div style="background-color:#f2f2f2"><img src="img/xy_pd4.png" width="80%" style="margin-left:10%"></div>
+			<div style="background-color:#f2f2f2"><img src="img/xy_pd5.png" width="80%" style="margin-left:10%"></div>
+			<div style="background-color:#f2f2f2"><img src="img/xy_pd6.png" width="80%" style="margin-left:10%"></div>
+			<div style="background-color:#f2f2f2"><img src="img/xy_pd7.png" width="80%" style="margin-left:10%"></div>
+			<div style="background-color:#f2f2f2"><img src="img/xy_pd8.png" width="80%" style="margin-left:10%"></div>
+			<img src="img/xy_rf.png" width="80%" style="margin-left:10%">
+		</div>
+		<div class="zuopin div">
+			<img src="img/al_bg.png" width="100%">
+			<img src="img/al_pg.png" width="80%" style="margin-left:10%">
+			<img src="img/al_td.png" width="80%" style="margin-left:10%">
+			<img src="img/al_ra.png" width="80%" style="margin-left:10%">
+			<img src="img/al_us.png" width="80%" style="margin-left:10%">
+			<img src="img/al_mm.png" width="80%" style="margin-left:10%">
+			<img src="img/al_is1.png" width="80%" style="margin-left:10%">
+			<img src="img/al_is2.png" width="80%" style="margin-left:10%">
+			<img src="img/al_is3.png" width="80%" style="margin-left:10%">
+			<img src="img/al_is4.png" width="80%" style="margin-left:10%">
+			<img src="img/al_is5.png" width="80%" style="margin-left:10%">
+			<img src="img/al_is6.png" width="80%" style="margin-left:10%">
+			<img src="img/al_is7.png" width="80%" style="margin-left:10%">
+			<div style="background-color:#fafafa"><img src="img/al_is8.png" width="80%" style="margin-left:10%"></div>
+			<img src="img/al_is9.png" width="80%" style="margin-left:10%">
+			<img src="img/al_mp.png" width="80%" style="margin-left:10%">
+		</div>
+		<div class="zuopin div" id="3">
+			<img src="img/yq_bg.png" width="100%">
+			<img src="img/yq_pb.png" width="100%">
+			<img src="img/yq_ur.png" width="80%" style="margin-left:10%">
+			<img src="img/yq_pd.png" width="80%" style="margin-left:10%">
+			<img src="img/yq_fa.png" width="100%">
+			<img src="img/yq_is1.png" width="80%" style="margin-left:10%">
+			<img src="img/yq_is2.png" width="80%" style="margin-left:10%">
+			<img src="img/yq_is3.png" width="80%" style="margin-left:10%">
+			<img src="img/yq_is4.png" width="80%" style="margin-left:10%">
+			<div style="background-color:#f2f2f2"><img src="img/yq_is5.png" width="80%" style="margin-left:10%"></div>
+			<img src="img/yq_ld.png" width="80%" style="margin-left:10%">
+		</div>
+		<div class="zuopin div" id="4">
+			<div style="background-color:#f2f2f2"><img src="img/ht_bg.png" width="80%" style="margin-left:10%"></div>
+			<img src="img/ht_dp.png" width="80%" style="margin-left:10%">
+			<div style="background-color:#f8f8f8"><img src="img/ht_pa.png" width="80%" style="margin-left:10%"></div>
+			<img src="img/ht_um.png" width="80%" style="margin-left:10%">
+			<img src="img/ht_fs.png" width="80%" style="margin-left:10%">
+			<img src="img/ht_fsd.png" width="80%" style="margin-left:10%">
+			<img src="img/ht_is1.png" width="80%" style="margin-left:10%">
+			<img src="img/ht_is2.png" width="80%" style="margin-left:10%">
+			<img src="img/ht_is3.png" width="80%" style="margin-left:10%">
+			<img src="img/ht_is4.png" width="80%" style="margin-left:10%">
+			<img src="img/ht_rr.png" width="80%" style="margin-left:10%">
+			<img src="img/ht_it.png" width="80%" style="margin-left:10%">
+			<img src="img/ht_onl.png" width="80%" style="margin-left:10%">
+			<img src="img/ht_es.png" width="80%" style="margin-left:10%">
+		</div>
 	</div>
 	<div class="mudle_6">
 		<img src="img/fot.png" width="60%" class="bg" style="margin-left:20%">

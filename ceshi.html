@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<title>选项卡切换代码 - 舍力分享</title>
+<style type="text/css">
+#slxxk{margin:10px auto; max-width:700px;}
+#slxxk ul{list-style:none;height:36px;border-bottom:2px solid black ;display:block; margin:0px; padding:0px;}
+#slxxk ul li{float:left;display:inline-block;padding:0px 15px;height:34px;line-height:34px;margin-right:5px;border:1px solid #ccc;border-bottom:none;cursor:pointer;}
+#slxxk div{padding:5px;border:1px solid #ccc;border-top:none;}
+#slxxk ul li.slyes{border-top:2px solid black;border-bottom: 2px solid white;}
+.slno{display:none;}
+</style>
+<script type="text/javascript">
+window.onload=function(){
+	var mytab =document.getElementById("slxxk");
+	var myul=mytab.getElementsByTagName("ul")[0];
+	var myli=myul.getElementsByTagName("li");
+	var mydiv=mytab.getElementsByTagName("div");
+	for(i=0,len=myli.length;i<len;i++){ 
+		myli[i].index=i; 
+		myli[i].onclick=function(){
+			for(var n=0;n<len;n++){
+				myli[n].className="";mydiv[n].className="slno";
+			}
+			this.className="slyes";
+			mydiv[this.index].className="";
+		}
+	}
+}    
+</script>
+</head>
+<body>
+<div id="slxxk">
+ <ul>
+  <li class="slyes">舍力博客</li>
+  <li>Emlog教程</li>
+  <li>网址导航</li>
+  <li>Emlog教程</li>
+  <li>网址导航</li>
+ </ul>
+ <div>舍力博客是一个记录了生活的点点滴滴，关注互联网发展、分享互联网精彩资讯，免费分享Emlog教程_模板_插件的个人seo博客。</div>
+ <div class="slno">Emlog教程网为你免费提供最全、最专业的emlog教程、Emlog插件、Emlog主题模板等各方面的经验和技巧，让你使用emlog轻松搭建起自己的网站，如在使用过程中有任何的疑问，请留言给舍力https://www.shuyong.net/iemlog</div>
+ <div class="slno">网站聚集地由舍力创立,汇集最优秀的中文网站及资源,及时收录企业/博客/论坛/门户等分类的网址和内容,让您的网络生活更简单精彩！http://daohang.shuyong.net</div>
+ <div class="slno">汇集最优秀的中文网站及资源,及时收录企业/博客/论坛/门户等分类的网址和内容,让您的网络生活更简单精彩！http://daohang.shuyong.net</div>
+ <div class="slno">时收录企业/博客/论坛/门户等分类的网址和内容,让您的网络生活更简单精彩！http://daohang.shuyong.net</div>
+</div>
+</body>
+</html>
