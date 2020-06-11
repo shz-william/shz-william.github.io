@@ -10,6 +10,27 @@
 	<link rel="shortcut icon" href="img/favicon.ico" />
 	<title>申海振 | 交互设计师</title>
 	<link rel="stylesheet" href="css/index.css"/>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript">
+        $(window).on("scroll",function(){
+            //判断向下滑动的距离
+            if($(window).scrollTop()>0){
+                //将顶部导航栏固定
+                $(".top").addClass("top-active");
+            }else{
+                $(".top").removeClass("top-active");
+            }
+        });
+        $(window).on("scroll",function(){
+        	if ($(window).scrollTop()>500) {
+        		$(".daohang").addClass("main_add");
+        		$(".top").addClass("top-active1");
+        	}else{
+        		$(".daohang").removeClass("main_add");
+        		$(".top").removeClass("top-active1");
+        	}
+        })
+	</script>
 	<script type="text/javascript">
 			window.onload=function(){
 				var mytab =document.getElementById("main");
@@ -29,6 +50,14 @@
 				}
 			}
 	</script>
+	<script type="text/javascript"> 
+		function showImg(){ 
+		document.getElementById("erweima").style.display='block'; 
+		} 
+		function hideImg(){ 
+		document.getElementById("erweima").style.display='none'; 
+		};
+	</script> 
 </head>
 <body>
 	<div class="mudle_1">
@@ -38,17 +67,18 @@
 			<nav class="nav"> 
 				<a href="index.html">初识</a> 
 				<a href="works.html">作品</a>
-				<a href="">关于</a>
-				<a href="">联系</a> 
-				<span class="nav-indicator"></span>
+				<a href="aboutme.html">关于</a>
+				<a href="contact.html">联系</a> 
+				<span class="cssxhx3"></span>
 			</nav>
 			<div class="c_icon">
-				<img src="img/weixin.png" width="8%">
+				<a href="javascript:void(0)" onMouseOut="hideImg()" onmouseover="showImg()"><img src="img/weixin.png" width="8%" class="weixin"></a>
 				<img src="img/qq.png" width="8%">
 				<img src="img/lingying.png" width="8%">
 				<img src="img/dianhua.png" width="8%">
 			</div>
 		</div>
+		<img src="img/weixin1.png" id="erweima" width="10%">
 	</div>
 	<div id="main">
 		<ul class="daohang">
@@ -58,7 +88,7 @@
 			<li>优企在线APP</li>
 			<li>安利社区管理系统</li>
 		</ul>
-		<div class="div" id="1">
+		<div class="div">
 				<img src="img/w1_bg.png" width="80%" style="margin-left:20%">
 				<img src="img/w1_pd.png" width="80%" style="margin-left:10%">
 				<img src="img/w1_dt.png" width="80%" style="margin-left:10%">
@@ -76,7 +106,7 @@
 				<img src="img/w1_edl5.png" width="80%" style="margin-left:10%">
 				<img src="img/w1_som.png" width="70%" style="margin-left:15%">
 		</div>
-		<div class="zuopin div" id="2">
+		<div class="zuopin div">
 			<img src="img/xy_top.png" width="100%">
 			<img src="img/xy_pb.png" width="80%" style="margin-left:10%">
 			<img src="img/xy_dr.png" width="80%" style="margin-left:10%">
@@ -116,7 +146,7 @@
 			<img src="img/al_is9.png" width="80%" style="margin-left:10%">
 			<img src="img/al_mp.png" width="80%" style="margin-left:10%">
 		</div>
-		<div class="zuopin div" id="3">
+		<div class="zuopin div">
 			<img src="img/yq_bg.png" width="100%">
 			<img src="img/yq_pb.png" width="100%">
 			<img src="img/yq_ur.png" width="80%" style="margin-left:10%">
@@ -129,7 +159,7 @@
 			<div style="background-color:#f2f2f2"><img src="img/yq_is5.png" width="80%" style="margin-left:10%"></div>
 			<img src="img/yq_ld.png" width="80%" style="margin-left:10%">
 		</div>
-		<div class="zuopin div" id="4">
+		<div class="zuopin div">
 			<div style="background-color:#f2f2f2"><img src="img/ht_bg.png" width="80%" style="margin-left:10%"></div>
 			<img src="img/ht_dp.png" width="80%" style="margin-left:10%">
 			<div style="background-color:#f8f8f8"><img src="img/ht_pa.png" width="80%" style="margin-left:10%"></div>
