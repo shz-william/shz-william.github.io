@@ -180,6 +180,7 @@ body{
 		input{
 			border-style: none;
 			line-height:4em;
+			border:0;
 			outline:none; 
 		}
 		.biaodan{
