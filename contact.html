@@ -65,9 +65,9 @@ function validateForm(){
 		<img src="img/weixin1.png" id="erweima" width="10%">
 	</div>
 	<form name="myForm" action="demo-form" onsubmit="return validateForm();" method="post">
-		<input type="text" name="" value="你的名字" class="biaodan">
-		<input type="text" name="email" value="邮箱" class="biaodan">
-		<input type="text" name="email" value="内容" class="biaodan">
+		<input type="text" name="" value="你的名字" class="biaodan" οnfοcus="if (value =='你的名字'){value =''}" οnblur="if (value ==''){value='你的名字'}" />
+		<input type="text" name="email" value="邮箱" class="biaodan" οnfοcus="if (value =='邮箱'){value =''}" οnblur="if (value ==''){value='邮箱'}" />
+		<input type="text" name="email" value="内容" class="biaodan" οnfοcus="if (value =='内容'){value =''}" οnblur="if (value ==''){value='内容'}" />
 		<input type="submit" value="提交" class="btn">
 	</form>
 	<div class="mudle_6">
