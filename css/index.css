@@ -230,9 +230,53 @@ body{
 			}
 			.cssxhx3{
 					left:39%;
-		}
+			}
 			.cssxhx4{
 				left:57%;
+			}
+			.more_1{
+			position: absolute;
+			top:20%;
+			left:35%;
+			}
+			.more_1 img{
+				width:25%;
+			}
+			.more_2{
+			position: absolute;
+			top:66%;
+			left:60%;
+			}
+			.more_2 img{
+				width:25%;
+			}
+			.w1{
+			position: absolute;
+			top:78%;
+			left:20%;
+		}
+		.w2{
+			position: absolute;
+			top:78%;
+			left:60%;
+		}
+		.w3{
+			position: absolute;
+			top:92%;
+			left:20%;
+		}
+		.w4{
+			position: absolute;
+			top:92%;
+			left:60%;
+		}
+		.more_3{
+			position: absolute;
+			top:106%;
+			left:45%;
+		}
+		.more_3 img{
+				width:25%;
 			}
 		}
 
