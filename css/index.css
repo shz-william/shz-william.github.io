@@ -224,15 +224,19 @@ body{
 			}
 			.cssxhx{
 				left:29.5%;
+				top:90%;
 			}
 			.cssxhx2{
 				left:48%;
+				top:90%;
 			}
 			.cssxhx3{
 					left:39%;
+					top:90%;
 			}
 			.cssxhx4{
 				left:57%;
+				top:90%;
 			}
 			.more_1{
 			position: absolute;
@@ -277,6 +281,9 @@ body{
 		}
 		.more_3 img{
 				width:25%;
+			}
+			.top{
+				height:4%;
 			}
 		}
 
